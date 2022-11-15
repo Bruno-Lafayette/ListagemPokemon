@@ -41,6 +41,7 @@
 }
 
 .nomePokemon{
+    text-transform: capitalize;
     color: white;
     margin-bottom: 0;
 }
@@ -72,10 +73,10 @@
 
 .tipo{
     color: white;
-    background-color: rgb(131, 165, 63);
     padding: .25rem .5rem;
     margin: .25rem 0rem;
     font-size: .625rem;
     border-radius: 1rem;
+    filter: brightness(1.1);
 }
 

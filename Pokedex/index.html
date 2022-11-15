@@ -14,6 +14,7 @@
     
     <link rel="stylesheet" href="assets/css/global.css">
     <link rel="stylesheet" href="assets/css/pokemon.css">
+    <link rel="stylesheet" href="assets/css/colorClass.css">
     
     <!-- Importando fontes do Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,21 +28,17 @@
     <section class="content">
         <h1>Pokedex</h1>
         <ol id="pokemonList" class="pokemons">
-            <li class="pokemon">
-                <span class="numero">#001</span>
-                <span class="nomePokemon"> Pikachu</span>
-                
-                <div class="detalhe">
-                    <ol class="tipos">
-                        <li class="tipo">raio</li>
-                        <li class="tipo">ar</li>
-                    </ol>
-                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/25.svg" alt="Pikachu">
+        </ol>
+        
+        <div class="paginas">
+            <button id="btnLoad" type="button">
+                Carregar Mais
+            </button>   
+        </div>
 
-                </div>
-            </li>
 
     </section>
+    <script src="assets/js/pokemon-Model.js"></script>
     <script src="assets/js/poke-API"></script>
     <script src="assets/js/main.js"></script>
 </body>
